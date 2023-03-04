@@ -2,7 +2,6 @@
   "name": "IV1201-Group-9-frontend",
   "version": "0.1.0",
   "private": true,
-  "main": "index.js",
   "dependencies": {
     "@chakra-ui/icons": "^2.0.17",
     "@chakra-ui/react": "^2.4.9",
