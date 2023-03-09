@@ -2,7 +2,7 @@ function doThrow(e) {
     throw e;
 }
 
-const url = "https://backend-iv1201-group9.herokuapp.com/";
+const url = "https://backend-iv1201-group9.herokuapp.com";
 const ApiPost = {
     apiCall(params, object, token) {
         return fetch(url + params, {

@@ -3,7 +3,7 @@ function doThrow(e) {
 }
 
 
-const url = "https://backend-iv1201-group9.herokuapp.com/";
+const url = "https://backend-iv1201-group9.herokuapp.com";
 
 /**
  * Makes an API call using HTTP GET method with the provided parameters and token

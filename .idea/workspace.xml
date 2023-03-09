@@ -1,19 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="49886e4f-43fb-447a-83f2-e21260f7d512" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ApiInterface/ApiCall.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApiInterface/ApiCall.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ApiInterface/ApiPost.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApiInterface/ApiPost.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AdminPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AdminPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ApplicationPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ApplicationPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/LoginPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LoginPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NavbarComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavbarComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SignupPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SignupPage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +31,9 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -50,7 +46,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678403606871</updated>
-      <workItem from="1678403610311" duration="247000" />
+      <workItem from="1678403610311" duration="313000" />
+      <workItem from="1678404167817" duration="445000" />
     </task>
     <servers />
   </component>
