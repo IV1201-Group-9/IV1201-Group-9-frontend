@@ -7,10 +7,13 @@ import ApiPost from "../ApiInterface/ApiPost";
 
 
 /**
- *
- * @returns {JSX.Element}
- * @constructor
+ * Component for the signup page, which allows new users to register for the application.
+ * This component renders a form with input fields for the user's email,
+ * password, and password confirmation. Upon submission, it validates the
+ * inputs and sends a POST request to the server to create a new user account.
+ * @returns {JSX.Element} Returns a JSX element containing the signup form.
  */
+
 function SignupPage() {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
@@ -48,6 +51,16 @@ function SignupPage() {
             password
         };
 
+        const passwordRegex = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])[0-9a-zA-Z]{8,}$/;
+        if (!passwordRegex.test(password)) {
+            setSuccess("");
+            setError(
+                "Password should be at least 8 characters long and contain at least one uppercase letter, one lowercase letter, and one number"
+            );
+            return;
+        }
+        setError("");
+
         ApiPost.signUp(signUpData)
             .then(response => {
                 localStorage.setItem('token', response.jwtToken);
@@ -64,7 +77,7 @@ function SignupPage() {
     }
 
 
-        return (
+    return (
         <Box
             as="form"
             onSubmit={handleSubmit}

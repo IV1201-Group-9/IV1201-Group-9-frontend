@@ -2,7 +2,7 @@ function doThrow(e) {
     throw e;
 }
 
-const url = "http://localhost:8080";
+const url = "https://backend-iv1201-group9.herokuapp.com/";
 const ApiPost = {
     apiCall(params, object, token) {
         return fetch(url + params, {
@@ -53,7 +53,14 @@ const ApiPost = {
             const statusEndpoint = "/api/v1/applicants/competence";
             const token = "Bearer "+ localStorage.getItem("token");
             return ApiPost.apiCall(statusEndpoint, object, token).then((data) => data);
-        }
+        },
+        setSubmit(object) {
+        const statusEndpoint = "/api/v1/applicants/submit";
+        console.log("This is the object on row 59 in APIPOST")
+        console.log(object);
+        const token = "Bearer "+ localStorage.getItem("token");
+        return ApiPost.apiCall(statusEndpoint, object, token).then((data) => data);
+    }
     };
 
 export default ApiPost;
